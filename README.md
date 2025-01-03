@@ -87,35 +87,208 @@ jupyter notebook
 
 # **Image_Preprosseing.ipynb**
 
-1. Sobel Edge Detection: 
-Displays the original image alongside edges detected in the X and Y directions and their combination.
+1. Sobel Edge Detection:
+Detects edges in the X and Y directions.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/667bfabe-7e6a-484a-93bd-319ad5c05613)
 
 2. Gaussian Blurring:
-Shows the effect of Gaussian blurring on a grayscale image.
+Reduces image noise with a Gaussian filter.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/b8b36a5b-2a32-4804-a77f-39c10ad95c96)
 
 3. Gabor Filtering:
-Visualizes texture analysis at multiple orientations.
+Analyzes texture with directional Gabor filters.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/3f1c6d58-493a-4f94-b5a7-cda6f69e4dbe)
 
 4. Laplacian Edge Detection:
-Highlights edges using the Laplacian operator.
+Applies Laplacian to highlight edges.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/1158e76b-7ebb-4416-974d-a343de329306)
 
 5. Fourier Transform:
-Computes and displays the magnitude spectrum.
+Computes and displays the frequency spectrum.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/546b6034-a240-4c8a-b68e-ddf9ab4e3d09)
 
 6. Non-Maximum Suppression:
-Refines Sobel edge detection results by suppressing non-maximum values.
+Suppresses non-maximum edges to refine results.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/5fd07fc6-44c3-4674-beb6-a8a779632b5c)
 
-7. Cartoon Effect:
-Applies cartoon effect to the image, making it look like a cartoon.
 
-8. Pencil Sketch Effect:
-Transforms the image into a pencil sketch.
+7. Morphological Operations:
+Performs operations such as dilation and erosion.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/be3b79b4-df73-4795-af41-0caed3d7f2dc)
 
-9. Histogram Equalization:
-Improves the contrast of the image using histogram equalization.
+8. Bilateral Filtering:
+Applies bilateral filtering for edge-preserving smoothing.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/d263ad9b-2843-4baf-8623-cae80092184f)
 
-10. CLAHE (Contrast Limited Adaptive Histogram Equalization):
-Enhances the image contrast more effectively than standard histogram equalization.
+9. Brightness Adjustment:
+Adjusts the brightness of the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/42bca985-f93d-4fc7-8702-b38ec1e40206)
+
+10. Canny Edge Detection:
+Detects edges using the Canny algorithm.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/8619b30d-9c2f-4c53-92b9-8ba7c89e3fc8)
+
+11. Emboss Filter:
+Applies an emboss filter to the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/f0233155-fdb7-49e6-9393-22b2e0f4e666)
+
+12. Median Blur:
+Applies median blur to the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/3b727b52-9b91-4c60-af13-0009dd6fa18f)
+
+13. Motion Blur:
+Simulates motion blur on the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/89b9ec54-0892-4d6b-85ab-3e23e0ba0538)
+
+14. Sharpen Filter:
+Sharpens the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/3909b533-8f3c-4fc6-af4a-ece233163c03)
+
+15. Add Gaussian Noise:
+Adds Gaussian noise to the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/15ef2a2c-6d53-4e44-b284-a8f45c46c7f7)
+
+16. Grayscale Conversion:
+Converts the image to grayscale.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/bfa3d3c7-42ef-4386-b864-3d523d53f562)
+
+17. Box Filter (Averaging Filter):
+Applies a box filter for averaging.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/828da229-0c3a-48c1-9cca-c8a4607c9c9e)
+
+18. Unsharp Masking:
+Enhances the image using unsharp masking.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/598e37c3-c32d-4454-9bed-c6c20ff353c9)
+
+19. Prewitt Filter:
+Applies the Prewitt filter for edge detection.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/19322a2d-6e94-4b74-be68-62ea4f660999)
+
+20. Cartoon Effect:
+Creates a cartoon effect on the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/944e31e9-7e96-4594-941f-9e2e7f73fe9f)
+
+22. Pencil Sketch Effect:
+Converts the image to a pencil sketch.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/19fb75b1-0f40-4e64-858f-293cae2ae05e)
+
+22. Histogram Equalization:
+Equalizes the histogram of the image.
+```
+Output:
+```
+![image](https://github.com/user-attachments/assets/73fc4220-965e-47f8-bbf3-d397f3a4ee6e)
+
+23. CLAHE (Contrast Limited Adaptive Histogram Equalization):
+Applies CLAHE for contrast enhancement.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/2e619c28-1568-43d9-a025-582e001e2551)
+
+24. Adaptive Thresholding:
+Applies adaptive thresholding.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/95e94733-a5fc-4781-9aee-d2568b4962dc)
+
+25. Frequency Domain Filtering:
+Applies high-pass and low-pass filters in the frequency domain.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/24926afe-e354-4e48-a18b-87aea784da1c)
+
+26. Bilateral Grid Filtering:
+Applies bilateral grid filtering.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/99f05b75-006d-4464-8ae3-b4c72cb451d0)
+
+27. Edge-Preserving Filter:
+Applies edge-preserving filtering.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/8a932c66-09d7-4cd7-b80b-d93422eae3f1)
+
+28. Scharr Filter:
+Applies the Scharr filter for edge detection.
+```
+Output:
+```
+
+![image](https://github.com/user-attachments/assets/b9667ca1-405f-496a-b4f6-49b9b89e8573)
 
 # **Project Structure**
 
