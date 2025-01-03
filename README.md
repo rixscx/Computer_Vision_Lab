@@ -293,7 +293,7 @@ Output:
 # **Project Structure**
 
 ```Code
-computer-vision-lab/
+Image_Preprosseing/
 │
 ├── Image_Preprosseing.ipynb  # Jupyter Notebook with all image processing techniques
 ├── requirements.txt          # List of dependencies
@@ -307,9 +307,6 @@ computer-vision-lab/
 3. Commit changes (git commit -m 'Add new feature').
 4. Push to the branch (git push origin feature-branch).
 5. Open a Pull Request.
-
-# **License**
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 # **References**
 
@@ -326,15 +323,14 @@ https://matplotlib.org/stable/contents.html
 https://scikit-image.org/docs/stable/
 ```
 
-
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Acknowledgments
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-I would like to express my sincere gratitude to my lecturer, Dr. Agughasi Victor Ikechukwu(https://github.com/Victor-Ikechukwu), for their invaluable guidance and support throughout this project. 
 
-Their expertise and insights have been instrumental in the successful completion of this project on image processing techniques using OpenCV and Matplotlib. I am deeply grateful for their encouragement and mentorship.
+## Acknowledgements
 
-Thank you for providing the knowledge and resources needed to explore and implement various computer vision tasks.
+ - I would like to express my sincere gratitude to my lecturer, Dr. Agughasi Victor Ikechukwu (https://github.com/Victor-Ikechukwu), for their invaluable guidance and support throughout this project.
+ - Their expertise and insights have been instrumental in the successful completion of this project on image clustering techniques using OpenCV and Matplotlib. I am deeply grateful for their encouragement and mentorship.
+ - Thank you for providing the knowledge and resources needed to explore and implement various computer vision tasks.
